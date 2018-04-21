@@ -1,0 +1,26 @@
+# /etc/conf.d/dextrod: config file for /etc/init.d/dextrod
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/dextro/dextro.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/dextrod"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/dextrod.pid"
+
+# Where to write dextrod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/dextrod"
+
+# User and group to own dextrod process
+#BITCOIND_USER="dextro"
+#BITCOIND_GROUP="dextro"
+
+# Path to dextrod executable
+#BITCOIND_BIN="/usr/bin/dextrod"
+
+# Nice value to run dextrod under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

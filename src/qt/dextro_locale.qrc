@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ca">locale/dextro_ca.qm</file>
+        <file alias="da">locale/dextro_da.qm</file>
+        <file alias="de">locale/dextro_de.qm</file>
+        <file alias="en">locale/dextro_en.qm</file>
+        <file alias="en_US">locale/dextro_en_US.qm</file>
+        <file alias="es">locale/dextro_es.qm</file>
+        <file alias="fr_FR">locale/dextro_fr_FR.qm</file>
+        <file alias="it">locale/dextro_it.qm</file>
+        <file alias="ja">locale/dextro_ja.qm</file>
+        <file alias="pt">locale/dextro_pt.qm</file>
+        <file alias="ro_RO">locale/dextro_ro_RO.qm</file>
+        <file alias="ru">locale/dextro_ru.qm</file>
+        <file alias="zh_TW">locale/dextro_zh_TW.qm</file>
+    </qresource>
+</RCC>

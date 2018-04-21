@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dextro
+Comment=Dextro P2P Cryptocurrency
+Comment[fr]=Dextro, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Dextro, eşten eşe kriptografik sanal para birimi
+Exec=dextro-qt %u
+Terminal=false
+Type=Application
+Icon=dextro128
+MimeType=x-scheme-handler/dextro;
+Categories=Office;Finance;

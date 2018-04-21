@@ -1,0 +1,11 @@
+[Protocol]
+exec=dextro-qt '%u'
+protocol=dextro
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

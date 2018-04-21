@@ -1,0 +1,26 @@
+[Unit]
+Description=Dextro's distributed currency daemon
+After=network.target
+
+[Service]
+User=dextro
+Group=dextro
+
+Type=forking
+PIDFile=/var/lib/dextrod/dextrod.pid
+
+ExecStart=/usr/bin/dextrod -daemon -pid=/var/lib/dextrod/dextrod.pid \
+          -conf=/etc/dextro/dextro.conf -datadir=/var/lib/dextrod
+
+ExecStop=-/usr/bin/dextro-cli -conf=/etc/dextro/dextro.conf \
+         -datadir=/var/lib/dextrod stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
