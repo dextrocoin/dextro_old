@@ -38,9 +38,9 @@ Masternode Rewards: 85%<br />
 # chmod a+x autogen.sh <br />
 # chmod a+x share/genbuild.sh <br />
 # chmod a+x src/leveldb/build_detect_platform <br />
-# ./autogen.sh
-# ./configure LDFLAGS="-L/usr/local/BerkeleyDB.4.8/lib/" CPPFLAGS="-I/usr/local/BerkeleyDB.4.8/include/"
-# make
+# ./autogen.sh <br />
+# ./configure LDFLAGS="-L/usr/local/BerkeleyDB.4.8/lib/" CPPFLAGS="-I/usr/local/BerkeleyDB.4.8/include/" <br />
+# make <br />
 </p>
 
 <h2><strong>License</strong></h2>
