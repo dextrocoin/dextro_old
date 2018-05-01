@@ -1,6 +1,6 @@
 <h2><strong>Dextro Core Community (Version 1.0.1)</strong></h2>
 
-<a href="https://bitcointalk.org/index.php?topic=3366303.0">WARNING!!! INVALID TOPIC!!!!</a>
+<a href="https://bitcointalk.org/index.php?topic=3366303.0">WARNING!!! BITCOINTALK 1st dev</a>
 
 <h2><strong>What is Dextro?</strong></h2>
 
