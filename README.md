@@ -14,17 +14,17 @@ Coin name: Dextro<br />
 Ticker: DXO<br />
 Algo: Skunkhash<br />
 <br />
-RPC: 39321<br />
 Port: 39320<br />
+RPC: 39321<br />
 <br />
 Blockreward till block 3500: 3 DXO<br />
 Blockreward after block 3500: 30 DXO<br />
 <br />
-Pos start at block 95 000<br />
+PoS start at block 95000<br />
 Block time: 60 seconds<br />
 Mature time: 60 blocks<br />
-Total supply: 25 000 000<br />
-Pow 15% / Pos 15% (after block 95000)<br />
+Total supply: 25000000<br />
+PoW 15% / PoS 15% (after block 95000)<br />
 <br />
 Masternode collateral: 1000 DXO<br />
 Masternode Rewards: 85%<br />
