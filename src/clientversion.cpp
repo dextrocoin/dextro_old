@@ -13,7 +13,7 @@
  * for both dextrod and dextro-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Dextro Core");
+const std::string CLIENT_NAME("Dextro Community");
 
 /**
  * Client version number
