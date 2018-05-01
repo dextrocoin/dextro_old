@@ -5,29 +5,29 @@
 <h2><strong>What is Dextro?</strong></h2>
 
 <p>
-Dextro (DXO) is an innovative cryptocurrency. A form of digital currency secured by cryptography and issued through a decentralized and advanced mining market. Based on Dash, it's an enhanced and further developed version, featuring the masternode technology with 85% Reward, near-instant and secure payments as well as anonymous transactions. Dextro has great potential for rapid growth and expansion. Based on a total Proof of Work, Proof of Stake and Masternode system, it is accesible to everyone, it ensures a fair and stable return of investment for the Graphics Processing Units (GPUs) miners and the Masternode holders.
+Dextro (DXO) is an innovative cryptocurrency. A form of digital currency secured by cryptography and issued through a decentralized and advanced mining market. Based on Dash and PIVX, it's an enhanced and further developed version, featuring the masternode technology with 85% Reward, near-instant and secure payments as well as anonymous transactions. Dextro has great potential for rapid growth and expansion. Based on a total Proof of Work, Proof of Stake and Masternode system, it is accesible to everyone, it ensures a fair and stable return of investment for the Graphics Processing Units (GPUs) miners and the Masternode holders.
 </p>
 
 <h2><strong>Coin Specs</strong></h2>
 <p>
-Coin name: Dextro
-Ticker: DXO
-Algo: Skunkhash
-Masternode collateral: 1000 DXO
-
-RPC: 39321
-Port: 39320
-
-Blockreward till block 3500: 3 DXO
-Blockreward after block 3500: 30 DXO
-
-Pos start at block 95 000
-Block time: 60 seconds
-Mature time: 60 blocks
-Total supply: 25 000 000
-Pow 15% / Pos 15% (after block 95000) 
-
-Masternode Rewards: 85%  
+Coin name: Dextro<br />
+Ticker: DXO<br />
+Algo: Skunkhash<br />
+<br />
+RPC: 39321<br />
+Port: 39320<br />
+<br />
+Blockreward till block 3500: 3 DXO<br />
+Blockreward after block 3500: 30 DXO<br />
+<br />
+Pos start at block 95 000<br />
+Block time: 60 seconds<br />
+Mature time: 60 blocks<br />
+Total supply: 25 000 000<br />
+Pow 15% / Pos 15% (after block 95000)<br />
+<br />
+Masternode collateral: 1000 DXO<br />
+Masternode Rewards: 85%<br />
 </p>
 
 
