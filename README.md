@@ -33,8 +33,8 @@ Masternode Rewards: 85%<br />
 
 <h2><strong>Wallet Setup?</strong></h2>
 <p>
-# git clone https://github.com/dextrocoin/dextro.git
-# cd dextro/
+# git clone https://github.com/dextrocoin/dextro.git <br />
+# cd dextro/ <br />
 # chmod a+x autogen.sh <br />
 # chmod a+x share/genbuild.sh <br />
 # chmod a+x src/leveldb/build_detect_platform <br />
