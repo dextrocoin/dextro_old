@@ -33,9 +33,14 @@ Masternode Rewards: 85%<br />
 
 <h2><strong>Wallet Setup?</strong></h2>
 <p>
-# chmod a+x autogen.sh 
-# chmod a+x share/genbuild.sh 
-# chmod a+x src/leveldb/build_detect_platform  
+# git clone https://github.com/dextrocoin/dextro.git
+# cd dextro/
+# chmod a+x autogen.sh <br />
+# chmod a+x share/genbuild.sh <br />
+# chmod a+x src/leveldb/build_detect_platform <br />
+# ./autogen.sh
+# ./configure LDFLAGS="-L/usr/local/BerkeleyDB.4.8/lib/" CPPFLAGS="-I/usr/local/BerkeleyDB.4.8/include/"
+# make
 </p>
 
 <h2><strong>License</strong></h2>
