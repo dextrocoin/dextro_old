@@ -43,6 +43,26 @@ Masternode Rewards: 85%<br />
 # make <br />
 </p>
 
+<p>
+windows wallet Dextro can download: http://www.filedropper.com/windowsdextroofficialrelease <br />
+<br />
+Install Dextro Masternode use realbityoda guide at: github.com/Realbityoda/Dextro<br />
+<br />
+For sync edit dextro.conf <br />
+<br />
+addnode=140.82.12.172:39320<br />
+addnode=45.77.7.58:39320<br />
+addnode=96.126.101.142:39320<br />
+addnode=80.211.5.23:39320<br />
+addnode=199.247.12.166:39320<br />
+addnode=45.63.39.9:39320<br />
+addnode=45.32.192.253:39320<br />
+addnode=51.15.219.13:39320<br />
+addnode=199.247.19.92:39320<br />
+addnode=207.148.76.112:39320<br />
+addnode=104.236.13.159:39320<br />
+</p>
+
 <h2><strong>License</strong></h2>
 <p>
 Dextro Core is released under the terms of the MIT license. See COPYING for more information or see https://opensource.org/licenses/MIT.
