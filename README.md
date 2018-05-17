@@ -50,17 +50,7 @@ Install Dextro Masternode use realbityoda guide at: github.com/Realbityoda/Dextr
 <br />
 For sync edit dextro.conf <br />
 <br />
-addnode=140.82.12.172:39320<br />
-addnode=45.77.7.58:39320<br />
-addnode=96.126.101.142:39320<br />
-addnode=80.211.5.23:39320<br />
-addnode=199.247.12.166:39320<br />
-addnode=45.63.39.9:39320<br />
-addnode=45.32.192.253:39320<br />
-addnode=51.15.219.13:39320<br />
-addnode=199.247.19.92:39320<br />
-addnode=207.148.76.112:39320<br />
-addnode=104.236.13.159:39320<br />
+addnode=177.152.49.221:39320<br />
 </p>
 
 <h2><strong>License</strong></h2>
