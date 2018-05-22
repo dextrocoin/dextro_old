@@ -43,11 +43,6 @@ Masternode Rewards: 85%<br />
 # make <br />
 </p>
 
-<p>
-https://github.com/dextrocoin/dextro/releases/download/1.0.1.1/Windows_Dextro_Official_Release.zip
-<br />
-https://github.com/dextrocoin/dextro/releases/download/1.0.1.1/Wallet-linux.tar.gz
-<br />
 Install Dextro Masternode use realbityoda guide at: github.com/Realbityoda/Dextro<br />
 <br />
 For sync edit dextro.conf <br />
