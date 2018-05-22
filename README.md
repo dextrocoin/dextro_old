@@ -52,14 +52,14 @@ Install Dextro Masternode use realbityoda guide at: github.com/Realbityoda/Dextr
 <br />
 For sync edit dextro.conf <br />
 <br />
-addnode=seed1.dextro.io 
-addnode=seed2.dextro.io 
-addnode=seed3.dextro.io
-addnode=seed4.dextro.io
-addnode=seed5.dextro.io
-addnode=seed6.dextro.io
-addnode=seed7.dextro.io
-addnode=seed8.dextro.io
+addnode=seed1.dextro.io <br />
+addnode=seed2.dextro.io <br />
+addnode=seed3.dextro.io <br />
+addnode=seed4.dextro.io <br />
+addnode=seed5.dextro.io <br />
+addnode=seed6.dextro.io <br />
+addnode=seed7.dextro.io <br />
+addnode=seed8.dextro.io <br />
 </p>
 
 <h2><strong>License</strong></h2>
