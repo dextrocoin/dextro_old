@@ -1,6 +1,6 @@
-<h2><strong>Dextro Community Core (Version 1.0.1)</strong></h2>
+<h2><strong>Dextro Community Core (Version 2.0.0)</strong></h2>
 
-<a href="https://bitcointalk.org/index.php?topic=3366303.0">WARNING!!! BITCOINTALK 1st dev</a>
+<a href="https://bitcointalk.org/index.php?topic=3366303.0">OLD BITCOINTALK 1st dev</a>
 
 <h2><strong>What is Dextro?</strong></h2>
 
@@ -17,17 +17,45 @@ Algo: Skunkhash<br />
 Port: 39320<br />
 RPC: 39321<br />
 <br />
-Blockreward till block 3500: 3 DXO<br />
-Blockreward after block 3500: 30 DXO<br />
+Blockreward
+Block 0 - 3500: 3 DXO<br />
+Block 3500 - 200000: 30 DXO <br />
+Block 200001 - 225000: 25 DXO <br />
+Block 225001 - 250000: 24 DXO <br />
+Block 250001 - 275000: 23 DXO <br />
+Block 275001 - 300000: 22 DXO <br />
+Block 300001 - 325000: 21 DXO <br />
+Block 325001 - 350000: 20 DXO <br />
+Block 350001 - 375000: 19 DXO <br />
+Block 375001 - 400000: 18 DXO <br />	  
+Block 400001 - 425000: 17 DXO <br />   
+Block 425001 - 455000: 16 DXO <br />
+Block 455001 - 487000: 15 DXO <br />
+Block 487001 - 522000: 14 DXO <br />
+Block 522001 - 562000: 13 DXO <br />
+Block 562001 - 607000: 12 DXO <br />
+Block 607001 - 657000: 11 DXO <br />
+Block 657001 - 712000: 10 DXO <br />
+Block 712001 - 772000: 9 DXO <br />
+Block 772001 - 837000: 8 DXO <br />
+Block 837001 - 937000: 7 DXO <br />
+Block 937001 - 1037000: 6 DXO <br />
+Block 1037001 - 1337000: 5 DXO <br />
+Block 1337000 - 1937000: 4 DXO <br />
+Block 1937000 - 2937000: 3 DXO <br />
+Block 2937000 - 5704000: 2 DXO <br />
+Block 5704000 - 8471000: 1 DXO <br />
+ 
 <br />
 PoS start at block 95000<br />
 Block time: 60 seconds<br />
 Mature time: 60 blocks<br />
 Total supply: 25000000<br />
-PoW 15% / PoS 15% (after block 95000)<br />
+PoS 25% (after block 200000)<br />
+
 <br />
-Masternode collateral: 1000 DXO<br />
-Masternode Rewards: 85%<br />
+Masternode collateral: 2000 DXO<br />
+Masternode Rewards: 75%<br />
 </p>
 
 
@@ -42,8 +70,6 @@ Masternode Rewards: 85%<br />
 # ./configure LDFLAGS="-L/usr/local/BerkeleyDB.4.8/lib/" CPPFLAGS="-I/usr/local/BerkeleyDB.4.8/include/" <br />
 # make <br />
 </p>
-
-Install Dextro Masternode use realbityoda guide at: github.com/Realbityoda/Dextro<br />
 <br />
 For sync edit dextro.conf <br />
 <br />
