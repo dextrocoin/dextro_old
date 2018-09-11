@@ -21,7 +21,7 @@ static const int INIT_PROTO_VERSION = 209;
 static const int GETHEADERS_VERSION = 70077;
 
 //! disconnect from peers older than this proto version
-static const int MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT = 70711;
+static const int MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT = 70716;
 static const int MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT = 70716;
 
 //! nTime field added to CAddress, starting with this version;
@@ -30,7 +30,7 @@ static const int CADDR_TIME_VERSION = 31402;
 
 //! only request blocks from nodes outside this range of versions
 static const int NOBLKS_VERSION_START = 0;
-static const int NOBLKS_VERSION_END = 70710;
+static const int NOBLKS_VERSION_END = 70715;
 
 //! BIP 0031, pong message, is enabled for all versions AFTER this one
 static const int BIP0031_VERSION = 60000;
