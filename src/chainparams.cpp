@@ -126,14 +126,14 @@ public:
         assert(hashGenesisBlock == uint256("0x0000006e4a88ca982f18d7d31214b80ebcc8eabfca62850287b4244d95e97474"));
         assert(genesis.hashMerkleRoot == uint256("0x42cd9b264d332b24645d65d4e61f99cbeb3cb5f23c3aa3ca98be61ee7d98d31d"));
 	//oficial dextro seeds
-        /*vSeeds.push_back(CDNSSeedData("seed1.dextro.io", "seed1.dextro.io")); 
+        vSeeds.push_back(CDNSSeedData("seed1.dextro.io", "seed1.dextro.io")); 
 	vSeeds.push_back(CDNSSeedData("seed2.dextro.io", "seed2.dextro.io")); 
 	vSeeds.push_back(CDNSSeedData("seed3.dextro.io", "seed3.dextro.io")); 
 	vSeeds.push_back(CDNSSeedData("seed4.dextro.io", "seed4.dextro.io"));
 	vSeeds.push_back(CDNSSeedData("seed5.dextro.io", "seed5.dextro.io")); 
 	vSeeds.push_back(CDNSSeedData("seed6.dextro.io", "seed6.dextro.io")); 
 	vSeeds.push_back(CDNSSeedData("seed7.dextro.io", "seed7.dextro.io")); 
-	vSeeds.push_back(CDNSSeedData("seed8.dextro.io", "seed8.dextro.io"));*/
+	vSeeds.push_back(CDNSSeedData("seed8.dextro.io", "seed8.dextro.io"));
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 90);
