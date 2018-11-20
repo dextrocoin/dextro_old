@@ -1,6 +1,6 @@
-<h2><strong>Dextro Community Core (Version 2.0.2.1)</strong></h2>
+<h2><strong>Dextro Community Core (Version 2.0.2.2)</strong></h2>
 
-<a href="https://bitcointalk.org/index.php?topic=3366303.0">OLD BITCOINTALK 1st dev</a>
+<a href="https://bitcointalk.org/index.php?topic=5065612">NEW BITCOINTALK NEW DEV</a>
 
 <h2><strong>What is Dextro?</strong></h2>
 
