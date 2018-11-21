@@ -2266,11 +2266,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
 	// ppcoin: track money supply and mint amount info
 	pindex->nMint = nValueOut - nValueIn + nFees;
 	pindex->nMoneySupply = (pindex->pprev ? pindex->pprev->nMoneySupply : 0) + nValueOut - nValueIn;
-	//
-	int T=0;
-	if (block.IsProofOfStake()){
-		T=1;
-	}
+	//	
 	if (!pblocktree->WriteBlockIndex(CDiskBlockIndex(pindex)))
 		return error("Connect() : WriteBlockIndex for pindex failed");
 
@@ -2278,10 +2274,10 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
 	nTimeConnect += nTime1 - nTimeStart;
 	LogPrint("bench", "      - Connect %u transactions: %.2fms (%.3fms/tx, %.3fms/txin) [%.2fs]\n", (unsigned)block.vtx.size(), 0.001 * (nTime1 - nTimeStart), 0.001 * (nTime1 - nTimeStart) / block.vtx.size(), nInputs <= 1 ? 0 : 0.001 * (nTime1 - nTimeStart) / (nInputs - 1), nTimeConnect * 0.000001);
 
-	if (!IsInitialBlockDownload() && !IsBlockValueValid(block, GetBlockValue(pindex->pprev->nHeight))) {
+	if (!IsInitialBlockDownload() && !IsBlockValueValid(block, GetBlockValue(pindex->pprev->nHeight),(pindex->nMint))) {
 		return state.DoS(100,
 			error("ConnectBlock() : reward pays too much (actual=%d vs limit=%d)",
-				block.vtx[T].GetValueOut(), GetBlockValue(pindex->pprev->nHeight)),
+				(pindex->nMint), GetBlockValue(pindex->pprev->nHeight)),
 			REJECT_INVALID, "bad-cb-amount");
 	}
 
