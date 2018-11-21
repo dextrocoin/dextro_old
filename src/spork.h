@@ -51,7 +51,7 @@ using namespace boost;
 #define SPORK_11_RESET_BUDGET_DEFAULT 0
 #define SPORK_12_RECONSIDER_BLOCKS_DEFAULT 0
 #define SPORK_13_ENABLE_SUPERBLOCKS_DEFAULT 1536710400             //ON (GMT): Wednesday, 12 September 2018 00:00:00
-#define SPORK_14_NEW_PROTOCOL_ENFORCEMENT_DEFAULT 4070908800             //OFF
+#define SPORK_14_NEW_PROTOCOL_ENFORCEMENT_DEFAULT 1542826800             //Human time (GMT): Wednesday, 21 November 2018 19:00:00
 
 class CSporkMessage;
 class CSporkManager;
