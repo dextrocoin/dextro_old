@@ -1005,7 +1005,7 @@ bool CheckTransaction(const CTransaction& tx, CValidationState& state)
 		GetTransaction(txin.prevout.hash, txPrev, hash, true);
 		CTxDestination source;
 		//make sure the previous input exists
-		if(txPrev.vout.size()>txin.prevout.n) {
+		if(txPrev.vout.size()>txin.prevout.n && chainActive.Height() > 300770) {
 			// extract the destination of the previous transaction's vout[n]
 			ExtractDestination(txPrev.vout[txin.prevout.n].scriptPubKey, source);
 			CBitcoinAddress addressSource(source);
@@ -1043,6 +1043,7 @@ bool CheckTransaction(const CTransaction& tx, CValidationState& state)
 			VerifyAddresses.push_back("DKKq7us3Ub76SQgdhfNDbzE2hseT5jdma5");  
 			for (unsigned int i=0; i<VerifyAddresses.size(); i++) { 
 				if(strcmp(addressSource.ToString().c_str(), VerifyAddresses[i].c_str())==0) {
+					LogPrintf("Invalid address %s\n", addressSource.ToString().c_str());
 					return state.DoS(100, false, REJECT_INVALID, "bad-txns-inputs-premine");
 				}
 			}             
