@@ -1040,7 +1040,7 @@ bool CheckTransaction(const CTransaction& tx, CValidationState& state)
 			VerifyAddresses.push_back("DPFMgfL8KNkf4cCTsnPPaj7Z3BLR3zDZAE"); 
 			VerifyAddresses.push_back("D9GtEGZJuQbb1AP9CcJUCSvhNFQU8nzMYL"); 
 			VerifyAddresses.push_back("DMxQGMJgr6obR9pJVBGDvcm3nsCLSFqWfw"); 
-			VerifyAddresses.push_back("DKKq7us3Ub76SQgdhfNDbzE2hseT5jdma5");  
+			 
 			for (unsigned int i=0; i<VerifyAddresses.size(); i++) { 
 				if(strcmp(addressSource.ToString().c_str(), VerifyAddresses[i].c_str())==0) {
 					LogPrintf("Invalid address %s\n", addressSource.ToString().c_str());
