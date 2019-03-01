@@ -1,4 +1,4 @@
-<h2><strong>Dextro Community Core (Version 2.0.3.1)</strong></h2>
+<h2><strong>Dextro Community Core (Version 3.0.0.0)</strong></h2>
 
 <a href="https://bitcointalk.org/index.php?topic=5065612">NEW BITCOINTALK NEW DEV</a>
 
