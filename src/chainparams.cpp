@@ -57,13 +57,12 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(300770,uint256("0x8545d424004291c7247f9cb1a1cb5f2705449a005481d5e3afd9d0edf5592dfb"))
 	(302251,uint256("0xc07074c7086ffe67851b8bbb4d999fceb590f638eaeca2fb12b3a688a8809fb6"))
 	(302670,uint256("0xd3e47efd864196679618aa532865ecdf8645b5f4dfe0ec67485925a272ee60e9"))
-	(322550,uint256("0x81a6c40406abd89574307ffbd4c619a77d87c69a6ac41666252f50902a04f423"))
-	(442630,uint256("0x95128c912ea244f511e5d0efd19d165b256905fe0f634b34776baf54be034c91"));
+	(322550,uint256("0x81a6c40406abd89574307ffbd4c619a77d87c69a6ac41666252f50902a04f423"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1551462864, // * UNIX timestamp of last checkpoint block
-    708970,    // * total number of transactions between genesis and last checkpoint
+    1544184864, // * UNIX timestamp of last checkpoint block
+    2950000,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     5000        // * estimated number of transactions per day after checkpoint
 };
@@ -110,8 +109,6 @@ public:
         nLastPOWBlock = 95000;
         nMaturity = 60;
         nModifierUpdateBlock = 1;
-        nMasternodeCollateralOld = 2000;
-        nMasternodeCollateralNew = 10000;
 		
         const char* pszTimestamp = "Dextro Official Release";
         CMutableTransaction txNew;
@@ -161,9 +158,8 @@ public:
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
         nPoolMaxTransactions = 3;
-
-        strSporkKey = "0422a02c1aab67fc545441b24b147fe894192e1efcac33f35b7192618c2e26f43f061268cfc393dcfb82dfbecf41ef1b1cf09b47561b60246268f62e03c038a412";        
-
+        strSporkKey = "03f83a6522e3a2d8d9f8306d792de98eefe4258c63127f93392ca35369cb113ff1";
+        
         strObfuscationPoolDummyAddress = "DWSbBnzmNkjDVaYHX7vkL1MqD96pRYWtZo";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
     }
