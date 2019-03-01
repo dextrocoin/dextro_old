@@ -331,7 +331,8 @@
 	}
 
 	int CMasternodePayments::GetMinMasternodePaymentsProto()
-	{    return ActiveProtocol();
+	{
+		return ActiveProtocol(); // Allow only updated peers
 	}
 
 	void CMasternodePayments::ProcessMessageMasternodePayments(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
