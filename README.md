@@ -73,14 +73,13 @@ Masternode Rewards: 75%<br />
 <br />
 For sync edit dextro.conf <br />
 <br />
-addnode=seed1.dextro.io <br />
-addnode=seed2.dextro.io <br />
-addnode=seed3.dextro.io <br />
-addnode=seed4.dextro.io <br />
-addnode=seed5.dextro.io <br />
-addnode=seed6.dextro.io <br />
-addnode=seed7.dextro.io <br />
-addnode=seed8.dextro.io <br />
+addnode=199.247.20.46:39320 <br />
+addnode=173.212.206.227:39320 <br />
+addnode=5.189.139.75:39320 <br />
+addnode=207.180.213.15:39320 <br />
+addnode=207.180.239.150:39320 <br />
+addnode=45.63.64.91:39320 <br />
+addnode=80.211.85.117:39320 <br />
 </p>
 
 <h2><strong>License</strong></h2>
