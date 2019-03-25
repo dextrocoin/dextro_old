@@ -54,7 +54,7 @@ Total supply: 25000000<br />
 PoS 25% (after block 200000)<br />
 
 <br />
-Masternode collateral: 2000 DXO<br />
+Masternode collateral: 10000 DXO<br />
 Masternode Rewards: 75%<br />
 </p>
 
